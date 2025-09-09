@@ -5,5 +5,5 @@ let newNumber = parseInt(myNumber);
 if (!newNumber) {
   console.log("Not a number");
 } else {
-  console.log(newNumber);
+  console.log("My Number: " + newNumber);
 }

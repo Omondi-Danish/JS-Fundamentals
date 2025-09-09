@@ -1,7 +1,5 @@
-let myMessage = `
-C is fun
+let myMessage = `C is fun
 Python is cool
-JavaScript is amazing
-`;
+JavaScript is amazing`;
 
 console.log(myMessage);
