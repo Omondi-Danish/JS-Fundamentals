@@ -1,7 +1,11 @@
-let myMessage = ["C is fun"];
+const count = parseInt(process.argv[2]);
 
-let myString = String(myMessage);
-
-for (i = 1; i <= 6; i++) {
-  console.log(myString);
+if (isNaN(count)) {
+  console.log("Missing number of occurrences");
+} else {
+  let i = 0;
+  while (i < count) {
+    console.log("C is fun");
+    i++;
+  }
 }
